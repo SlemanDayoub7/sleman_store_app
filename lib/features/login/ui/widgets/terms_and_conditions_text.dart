@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:sleman_store_app/core/theming/colors.dart';
 import 'package:sleman_store_app/core/theming/text_styles.dart';
-import 'package:sleman_store_app/generated/codegen_loader.g.dart';
+import 'package:sleman_store_app/core/localization/generated/codegen_loader.g.dart';
 
 class TermsAndConditionsText extends StatelessWidget {
   const TermsAndConditionsText({super.key});
@@ -29,7 +29,7 @@ class TermsAndConditionsText extends StatelessWidget {
                 TextStyles.b1Semibold.copyWith(color: ColorsManager.blackGray),
           ),
           TextSpan(
-            text: LocaleKeys.and.tr() + '',
+            text: LocaleKeys.and.tr() + ' ',
             style: TextStyles.b1Regular
                 .copyWith(height: 1.5, color: ColorsManager.blackGray),
           ),

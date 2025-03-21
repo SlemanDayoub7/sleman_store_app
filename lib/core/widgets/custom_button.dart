@@ -98,7 +98,7 @@ class CustomButton extends StatelessWidget {
           ],
           CustomText(
               text: text!,
-              style: TextStyles.h3Semibold.copyWith(
+              style: TextStyles.b1Medium.copyWith(
                 color: ColorsManager.white,
               ))
         ],

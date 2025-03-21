@@ -8,3 +8,6 @@ SizedBox verticalSpace(double height) => SizedBox(
 SizedBox horizontalSpace(double width) => SizedBox(
       width: width.w,
     );
+EdgeInsets basePadding() =>
+    EdgeInsets.symmetric(horizontal: 20.w, vertical: 20.h);
+BorderRadius baseBorderRadius() => BorderRadius.circular(10.r);

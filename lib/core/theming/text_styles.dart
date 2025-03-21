@@ -31,17 +31,17 @@ class TextStyles {
 
   // B1, B2, B3 - Regular, Medium, Semibold
   static TextStyle b1Regular = TextStyle(
-    fontSize: 16.sp,
+    fontSize: 18.sp,
     fontWeight: FontWeight.w400,
   );
 
   static TextStyle b1Medium = TextStyle(
-    fontSize: 16.sp,
+    fontSize: 18.sp,
     fontWeight: FontWeight.w500,
   );
 
   static TextStyle b1Semibold = TextStyle(
-    fontSize: 16.sp,
+    fontSize: 18.sp,
     fontWeight: FontWeight.w600,
   );
 

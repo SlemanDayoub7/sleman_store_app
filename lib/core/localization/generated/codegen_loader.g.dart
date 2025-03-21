@@ -5,8 +5,18 @@
 abstract class  LocaleKeys {
   static const hello = 'hello';
   static const terms = 'terms';
+  static const all = 'all';
+  static const price = 'price';
+  static const done = 'done';
+  static const phone = 'phone';
+  static const address = 'address';
+  static const default_sort = 'default_sort';
+  static const name_error = 'name_error';
   static const conditions = 'conditions';
+  static const min_price = 'min_price';
+  static const max_price = 'max_price';
   static const and = 'and';
+  static const categories = 'categories';
   static const privacy_policy = 'privacy_policy';
   static const get_started = 'get_started';
   static const welcome = 'welcome';
@@ -25,6 +35,7 @@ abstract class  LocaleKeys {
   static const products = 'products';
   static const cart = 'cart';
   static const checkout = 'checkout';
+  static const empty_cart_description = 'empty_cart_description';
   static const order_summary = 'order_summary';
   static const subtotal = 'subtotal';
   static const shipping = 'shipping';
@@ -32,6 +43,10 @@ abstract class  LocaleKeys {
   static const payment_method = 'payment_method';
   static const cash_on_delivery = 'cash_on_delivery';
   static const credit_card = 'credit_card';
+  static const added_to_cart = 'added_to_cart';
+  static const removed_from_cart = 'removed_from_cart';
+  static const there_is_no_data_to_display = 'there_is_no_data_to_display';
+  static const please_pull_down_to_refresh = 'please_pull_down_to_refresh';
   static const place_order = 'place_order';
   static const thank_you = 'thank_you';
   static const order_placed = 'order_placed';
