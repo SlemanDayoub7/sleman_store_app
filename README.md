@@ -42,32 +42,3 @@ This app uses [FakeStoreAPI](https://fakestoreapi.com). No setup required - just
 | Carts         | `POST /carts`              |
 | Auth          | `POST /auth/login`         |
 
-## Project Structure
-lib/
-├── core/
-│   ├── networking/     # API clients & interceptors
-│   ├── helpers/        # Extensions & Utilities
-│   ├── di/             # Dependency injection
-│   ├── theming/        # App themes
-│   └── localization/   # Translation files
-│   └── constants/      # App constants
-│   └── routing/        # Routes & Navigation logic
-│   └── widgets/        # Reusable widgets
-
-├── features/
-│   ├── home/
-│   │   ├── data/
-│   │   │   ├── models/    # Feature-specific models
-│   │   │   └── repositories/
-│   │   ├── logic/
-│   │   │   ├── cubit/
-│   │   │   └── state/
-│   │   └── ui/         # Screens & widgets
-│   │   │   ├── widgets/
-│   │   │   └── home_screen
-│   ├── auth/           # Authentication flow
-│   ├── product detail/        # Product detail features
-│   ├── cart/           # Cart management
-│   └── profile/        # User profile
-main.dart # App entry point
-
