@@ -25,13 +25,14 @@ class AppRouter {
         );
       case Routes.profileScreen:
         return MaterialPageRoute(
-          builder: (_) => BlocProvider(
-              create: (context) => getIt<ProfileCubit>(),
-              child: ProfileScreen()),
+          builder: (_) => ProfileScreen(),
         );
       case Routes.loginScreen:
         return MaterialPageRoute(
-          builder: (_) => LoginScreen(),
+          builder: (_) => BlocProvider(
+            create: (context) => getIt<LoginCubit>(),
+            child: LoginScreen(),
+          ),
         );
       case Routes.cartScreen:
         return MaterialPageRoute(
