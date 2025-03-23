@@ -1,3 +1,3 @@
 class ApplicationConstants {
-  static const applicationName = 'Ecommerce App';
+  static const applicationName = 'Sleman Store App';
 }
